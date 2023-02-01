@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RestController
 @Slf4j
-@CrossOrigin(origins="*")
+//@CrossOrigin(origins="*")
 public class HealthCheckController {
 
     @GetMapping("/")
